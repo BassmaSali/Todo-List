@@ -29,7 +29,7 @@ public:
     int getId() { return id; }
     std::string getDescription() { return description; }
     bool isCompleted() { return completed; }
-    void setCompleted(bool val) { completed = val };
+    void setCompleted(bool val) { completed = val; }
 };
 
 int main()
